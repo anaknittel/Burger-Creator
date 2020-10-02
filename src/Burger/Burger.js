@@ -7,6 +7,7 @@ const burger = (props) => {
         {props.name} - {props.price} Euros!
       </p>
       <p>{props.children}</p>
+      <input type="text" onChange={props.changed} value={props.name} />
     </div>
   );
 };

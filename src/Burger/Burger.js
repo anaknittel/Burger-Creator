@@ -3,7 +3,7 @@ import React from "react";
 const burger = (props) => {
   return (
     <div>
-      <p>
+      <p onClick={props.click}>
         {props.name} - {props.price} Euros!
       </p>
       <p>{props.children}</p>

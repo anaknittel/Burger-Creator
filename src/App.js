@@ -38,6 +38,7 @@ const app = (props) => {
       <Burger
         name={burgersState.burgers[1].name}
         price={burgersState.burgers[1].price}
+        click={switchBurgerHandler}
       >
         Extra Sauce!
       </Burger>
